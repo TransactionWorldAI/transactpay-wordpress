@@ -1,5 +1,5 @@
-# transactpay
-the official woocommerce plugin for tramsact pay.
+# Transactpay
+the official woocommerce plugin for Transactpay.
 
 ## Development Dependencies
 
@@ -33,7 +33,7 @@ Installing a WordPress plugin is a simple process. Follow the steps below to add
    - In the WordPress dashboard, on the left-hand menu, click on `Plugins` and select `Add New`.
 
 3. **Search for a Plugin**
-   - Use the search bar on the top-right to find the plugin you want to install. For example, search for "TransactPay".
+   - Use the search bar on the top-right to find the plugin you want to install. For example, search for "Transactpay".
 
 4. **Install the Plugin**
    - Once you've found your desired plugin, click the `Install Now` button.
