@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+.transactpay-page-banner {
+    /* Gradient fading from white to transparent, overlaid on the image */
+    background-image: linear-gradient(to right, white, transparent), 
+                      url(https://merchant.transactpay.ai/static/media/landing.c3aa3d31.png);
+    
+    background-size: initial; /* Make gradient cover the entire width, image contained */
+    background-repeat: no-repeat; /* No repeating for both gradient and image */
+    background-position: right; /* Keep the image positioned on the right */
+    
+    /* TODO: handle on small screens */
+}
+
+.transactpay-page {
+	margin: 0 auto;
+
+	&.is-narrow {
+		max-width: 550px;
+	}
+
+    font-family: Sarabun !important;
+}
+
+.transactpay-page h2 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.transactpay-page__heading {
+    padding: 24px 24px 0;
+}
+
+/**
+    Red - #8E173F
+    Grey - #858481
+    White - #FFF
+**/
+
+.transactpay-font-heading {
+    color: #8E173F;
+    font-size: 1.2rem;
+}
+
+img.transactpay__settings_logo {
+    margin-bottom: 2px;
+    width: 150px;
+    /* height: 24px; */
+}
+
+.transactpay-page__buttons {
+    padding: 24px;
+    margin-left: 15px;
+}
+
+.transactpay-page__sandbox-mode-panel .components-panel__body.is-opened, 
+.transactpay-page__general_settings-panel .components-panel__body.is-opened,
+.transactpay-page__checkout_settings-panel .components-panel__body.is-opened
+{
+    padding: 24px;
+
+}
+
+.transactpay-page__general_settings-panel h2.components-panel__body-title button,
+.transactpay-page__checkout_settings-panel h2.components-panel__body-title button
+{
+    font-weight: bold;
+}
+
+.transactpay-page__general_settings-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5em;
+}
+
+.transactpay-settings-btn-center {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.transactpay-settings__inputs {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1.5em
+}
+
+.transactpay-settings-cta {
+    margin-top: 1em;
+    align-self: center;
+}
+
+.transactpay-webhook-instructions {
+    margin-top: 2em !important;
+    margin-bottom: .5em;
+    text-align: center !important;
+    /* font-weight: bold !important; */
+}
+
+.transactpay-webhook-link {
+    display: block;
+    text-align: center;
+    color: #8E173F !important;
+    margin-top: 2em !important;
+    font-weight: bold !important;
+}
+
+
+
+

@@ -1,0 +1,435 @@
+# Copyright (C) 2025 TransactWorld Digital Engineers
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: TransactPay by TransactWorld Digital 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/transactpay\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-22T18:17:21+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: transactpay\n"
+
+#. Plugin Name of the plugin
+#: transactpay.php
+msgid "TransactPay by TransactWorld Digital"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: transactpay.php
+msgid "https://transactpay.readme.io/"
+msgstr ""
+
+#. Description of the plugin
+#: transactpay.php
+msgid "This plugin is the official TransactWorld Digital payment plugin for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+#: transactpay.php
+msgid "TransactWorld Digital Engineers"
+msgstr ""
+
+#. Author URI of the plugin
+#: transactpay.php
+msgid "https://transactpay.readme.io/docs/getting-started"
+msgstr ""
+
+#: includes/admin/class-setup.php:82
+msgid "My Extension Name"
+msgstr ""
+
+#. translators: $1. Minimum WooCommerce version. $2. Current WooCommerce version.
+#: includes/admin/notices/class-transactpay-notices.php:31
+msgid "TransactPay requires WooCommerce %1$s or greater to be installed and activated. kindly upgrade to a higher version of WooCommerce. WooCommerce version %2$s is not supported."
+msgstr ""
+
+#. Translators: %s Plugin name.
+#: includes/admin/views/html-missing-woocommerce.php:15
+msgid "%s requires WooCommerce to be installed and activated in order to serve updates."
+msgstr ""
+
+#. Translators: %s Plugin name.
+#: includes/admin/views/html-missing-woocommerce.php:15
+#: includes/class-transactpay.php:156
+#: assets/blocks/payment-method/index.js:33
+msgid "Transactpay"
+msgstr ""
+
+#: includes/admin/views/html-missing-woocommerce.php:25
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: includes/admin/views/html-missing-woocommerce.php:28
+#: includes/admin/views/html-missing-woocommerce.php:42
+msgid "Deactivate Transactpay"
+msgstr ""
+
+#: includes/admin/views/html-missing-woocommerce.php:40
+msgid "Install WooCommerce"
+msgstr ""
+
+#: includes/api/class-transactpay-settings-rest-controller.php:78
+msgid "The go_live value provided is invalid. Please provide a yes or no."
+msgstr ""
+
+#: includes/api/class-transactpay-settings-rest-controller.php:90
+msgid "The autocomplete_order value provided is invalid. Please provide a yes or no."
+msgstr ""
+
+#: includes/api/class-transactpay-settings-rest-controller.php:102
+msgid "The enabled value provided is invalid. Please provide a yes or no."
+msgstr ""
+
+#: includes/api/class-transactpay-settings-rest-controller.php:123
+#: includes/api/class-transactpay-settings-rest-controller.php:141
+msgid "Your user is not permitted to access this resource."
+msgstr ""
+
+#: includes/block/class-transactpay-block-support.php:166
+msgid "Visa"
+msgstr ""
+
+#: includes/block/class-transactpay-block-support.php:170
+msgid "Mastercard"
+msgstr ""
+
+#: includes/block/class-transactpay-block-support.php:174
+msgid "Verve"
+msgstr ""
+
+#: includes/block/class-transactpay-block-support.php:181
+msgctxt "Name of credit card"
+msgid "Discover"
+msgstr ""
+
+#: includes/block/class-transactpay-block-support.php:185
+msgid "JCB"
+msgstr ""
+
+#: includes/block/class-transactpay-block-support.php:189
+msgid "Diners"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:135
+msgid "payment made easy "
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:191
+msgid "Webhook Instruction"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:195
+msgid "Please add this webhook URL and paste on the webhook section on your dashboard"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:216
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:217
+msgid "Enable Transactpay"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:219
+msgid "Enable Transactpay as a payment option on the checkout page"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:224
+msgid "Payment method title"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:226
+#: includes/class-transactpay-payment-gateway.php:232
+msgid "Optional"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:230
+msgid "Payment method description"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:236
+msgid "Test Public Key"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:238
+msgid "Required! Enter your Transactpay test public key here"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:242
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:244
+msgid "Required! Enter your Transactpay test secret key here"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:248
+msgid "Test Encryption Key"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:250
+msgid "Required! Enter your Transactpay test encryption key here"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:254
+msgid "Live Public Key"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:256
+msgid "Required! Enter your Transactpay live public key here"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:260
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:262
+msgid "Required! Enter your Transactpay live secret key here"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:266
+msgid "Live Encryption Key"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:268
+msgid "Required! Enter your Transactpay Live encryption key here"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:272
+msgid "Autocomplete Order After Payment"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:273
+msgid "Autocomplete Order"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:276
+msgid "If enabled, the order will be marked as complete after successful payment"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:281
+msgid "Payment Style on checkout"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:283
+msgid "Optional - Choice of payment style to use. Either inline or redirect. (Default: inline)"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:285
+msgctxt "payment_style"
+msgid "Pop-Up (Keep the customer on your site)"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:290
+msgid "Mode"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:291
+msgid "Live mode"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:293
+msgid "Check this box if you're using your live keys and are ready to start collecting actual payments."
+msgstr ""
+
+#. translators: %s: url
+#: includes/class-transactpay-payment-gateway.php:343
+msgid "For TransactPay on appear on checkout. Please <a href=\"%s\">set your TransactPay API keys</a> to be able to accept payments."
+msgstr ""
+
+#. translators: %s: shop cart url
+#: includes/class-transactpay-payment-gateway.php:379
+msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:393
+#: includes/class-transactpay-payment-gateway.php:519
+msgid "We were unable to process your order, please try again."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:469
+msgid "Checkout Payment"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:520
+msgid "Attention: Customer session expired. "
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:521
+msgid "Customer should try again. order has status is now pending payment."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:552
+#: includes/class-transactpay-payment-gateway.php:737
+msgid "verifying the Payment of Transactpay..."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:562
+msgid "The customer clicked on the cancel button on Checkout."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:564
+msgid "Attention: Customer clicked on the cancel button on the payment gateway. We have updated the order to cancelled status. "
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:565
+msgid "Please, confirm from the order notes that there is no note of a successful transaction. If there is, this means that the user was debited and you either have to give value for the transaction or refund the customer."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:584
+msgid "The payment didn't return a valid response. It could have timed out or abandoned by the customer on TransactPay"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:588
+msgid "Please, contact us for information regarding this order."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:589
+msgid "Attention: New order has been placed on hold because we could not get a definite response from the payment gateway. Kindly contact the TransactPay support team at support@Transactpay.com  to confirm the payment."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:590
+#: includes/class-transactpay-payment-gateway.php:758
+msgid "Payment Reference: "
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:609
+#: includes/class-transactpay-payment-gateway.php:770
+msgid "Attention: New order has been placed on hold because of incorrect payment amount or currency. Please, look into it."
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:610
+#: includes/class-transactpay-payment-gateway.php:771
+msgid "Amount paid: "
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:610
+#: includes/class-transactpay-payment-gateway.php:771
+msgid "Order amount: "
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:610
+#: includes/class-transactpay-payment-gateway.php:771
+msgid " Reference: "
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:755
+msgid "The payment didn't return a valid response. It could have timed out or abandoned by the customer on Transactpay"
+msgstr ""
+
+#: includes/class-transactpay-payment-gateway.php:757
+msgid "Attention: New order has been placed on hold because we could not get a definite response from the payment gateway. Kindly contact the Transactpay support team at support@Transactpay.com to confirm the payment."
+msgstr ""
+
+#: assets/admin/components/error-boundary/index.jsx:34
+msgid "There was an error rendering this view. Please contact support for assistance if the problem persists."
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:12
+msgid "Get Started!"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:16
+msgid "Save Configuration"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:20
+msgid "Enable Test mode"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:21
+msgid "Disable Test mode"
+msgstr ""
+
+#. translators: %s: first name of the merchant, if it exists, %s: TransactPay.
+#: assets/admin/settings/strings.jsx:26
+msgid ""
+"Hi%s,\n"
+" Welcome to %s!"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:31
+msgid "API/Webhook Settings"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:35
+msgid "Checkout Settings"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:40
+msgid "Offer card payments"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:45
+msgid "Test Mode: I'm setting up a store for someone else."
+msgstr ""
+
+#. translators: %s: Transactpay
+#: assets/admin/settings/strings.jsx:51
+msgid "This option will set up %s in test mode. When you’re ready to launch your store, switching to live payments is easy."
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:59
+msgid "Test mode is enabled, only test credentials can be used to make payments. If you want to process live transactions, please {{learnMoreLink}}disable it{{/learnMoreLink}}."
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:76
+msgid "enable collection."
+msgstr ""
+
+#. translators: %s: Transactpay
+#: assets/admin/settings/strings.jsx:81
+msgid "Verifying your information with %s"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:85
+msgid "You’re only steps away from getting paid"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:90
+msgid "Create and connect your account"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:94
+msgid "To ensure safe and secure transactions, a WordPress.com account is required."
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:100
+msgid "Setup complete!"
+msgstr ""
+
+#. translators: %s: Transactpay
+#: assets/admin/settings/strings.jsx:103
+msgid "You’re ready to start using the features and benefits of %s."
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:110
+msgid "We've temporarily paused new account creation. We'll notify you when we resume!"
+msgstr ""
+
+#: assets/admin/settings/strings.jsx:117
+msgid "*See <a>Terms and Conditions</a> for details."
+msgstr ""
+
+#. translators: %1$s: Transactpay
+#: assets/admin/settings/strings.jsx:136
+msgid "<b>%1$s is not currently available in your location</b>."
+msgstr ""
+
+#: assets/blocks/payment-method/index.js:38
+msgid "Proceed to Transactpay"
+msgstr ""
+
+#: assets/blocks/payment-method/index.js:44
+msgid "Payment via Transactpay"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "TransactPay"
+msgstr ""
